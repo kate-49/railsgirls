@@ -58,6 +58,7 @@ GEM
       zeitwerk (~> 2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    awesome_print (1.8.0)
     bindex (0.8.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
@@ -109,6 +110,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9-x86-mingw32)
       mini_portile2 (~> 2.4.0)
+    pg (1.2.2-x86-mingw32)
     public_suffix (4.0.3)
     puma (4.3.3)
       nio4r (~> 2.0)
@@ -203,16 +205,18 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  awesome_print
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
   carrierwave
   jbuilder (~> 2.7)
+  pg
   puma (~> 4.1)
   rails (~> 6.0.2, >= 6.0.2.1)
   sass-rails (>= 6)
   selenium-webdriver
-  sqlite3 (~> 1.4)
+  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
